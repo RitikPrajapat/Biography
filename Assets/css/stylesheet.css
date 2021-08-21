@@ -1,0 +1,161 @@
+body {
+  background-color: lightyellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red;
+}
+
+li a:active {
+  color: yellow;
+}
+
+li a:visited {
+  color: green;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#navbar {
+  background-color: lightblue;
+}
+
+#navbar ul {
+  padding: 0%;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+#showcase {
+  text-align: center;
+  padding: 50px;
+  margin: 15px;
+  font-size: 25px;
+}
+
+.tag {
+  background-color: #777;
+  border-radius: 25px;
+  font-size: 25px;
+  margin: 0;
+  color: white;
+  padding: 10px;
+}
+.tag-pink {
+  background-color: #c62bcb;
+}
+
+.tag-blue {
+  background-color: blue;
+}
+
+.tag-green {
+  background-color: green;
+}
+
+.tag-purple {
+  background-color: purple;
+}
+
+.tag-red {
+  background-color: red;
+}
+
+.text {
+  padding-top: 30px;
+}
+
+p {
+  padding: 15px;
+}
+/*
+.image1 {
+  height: 500px;
+  overflow: hidden;
+}
+
+.image2 {
+  height: 400px;
+  overflow: hidden;
+}
+
+.image3 {
+  height: 400px;
+  overflow: hidden;
+}
+
+.image4 {
+  height: 400px;
+  overflow: hidden;
+}
+
+.image5 {
+  height: 400px;
+  overflow: hidden;
+}
+*/
+
+#footer {
+  background-color: lightsalmon;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
+.address {
+  text-align: right;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.logo {
+  display: inline;
+  color: white;
+}
+
+a {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+a:hover .fa-facebook {
+  color: #1778f2;
+}
+
+a:hover .fa-instagram {
+  color: #ff007b;
+}
+
+a:hover .fa-github {
+  color: black;
+}
